@@ -1,0 +1,20 @@
+.Weather li {
+  list-style: none;
+  font-size: 20px;
+  color: tomato;
+  font-weight: bold;
+}
+form {
+  padding: 12px;
+}
+input {
+  padding: 7px;
+  margin: 8px;
+  border-radius: 5px;
+}
+.button {
+  background-color: aqua;
+}
+ul {
+  padding: 0;
+}
