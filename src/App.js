@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Weather from "./Weather";
 
@@ -10,7 +9,14 @@ function App() {
         <Weather />
       </header>
       <p>
-        This project was coded by Samaneh Mokhtari and it is <a>open-sourced</a>
+        This project was coded by Samaneh Mokhtari and it is{" "}
+        <a
+          href="https://github.com/sandramkh516/week4"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced
+        </a>
       </p>
     </div>
   );
