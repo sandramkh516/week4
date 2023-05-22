@@ -20,8 +20,8 @@ export default function Weather() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    api = "88724523008dc9e1be18f6eb6a959b67";
-    url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api}&units=metric`;
+    let api = "ca0db41e2e878c74a1dfc7ffece370d4";
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api}&units=metric`;
     axios.get(url).then(showWeather);
   }
   function updateCity(event) {
